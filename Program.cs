@@ -1,4 +1,5 @@
 using ECommerce.Data;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,10 @@ app.MapControllers();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference(options =>
+    {
+        options.WithTheme(ScalarTheme.Mars).WithDarkMode();
+    });
 }
 
 app.UseHttpsRedirection();
