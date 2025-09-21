@@ -4,7 +4,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>Travel_Booking_.NET</RootNamespace>
+        <RootNamespace>Travel_Booking</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

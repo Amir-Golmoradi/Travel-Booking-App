@@ -1,5 +1,5 @@
-using ECommerce.Data;
 using Scalar.AspNetCore;
+using Travel_Booking.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ECommerce.Data;
-
+namespace Travel_Booking.Database;
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options){
 
 }
