@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ECommerce.Data;
+namespace Travel_Booking.Database;
 
 
 public static class DbExtensions
